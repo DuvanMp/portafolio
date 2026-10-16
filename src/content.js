@@ -2,12 +2,15 @@
 
 export const profile = {
   name: 'Duvan Martínez',
+  firstName: 'Duvan',
+  lastName: 'Martínez',
+  photo: '/foto.jpg',
   email: 'duvanmar1098@gmail.com',
   location: 'Bucaramanga, Colombia',
   // Agrega tus enlaces cuando los tengas; los vacíos no se muestran.
   links: {
     github: 'https://github.com/DuvanMp',
-    linkedin: 'www.linkedin.com/in/duvanmartinez2511',
+    linkedin: 'https://www.linkedin.com/in/duvanmartinez2511',
   },
 };
 
@@ -15,7 +18,9 @@ export const content = {
   es: {
     nav: { about: 'Sobre mí', services: 'Servicios', experience: 'Experiencia', projects: 'Proyectos', contact: 'Contacto' },
     hero: {
-      role: 'Desarrollador Full Stack',
+      role: 'Desarrollador Full Stack Senior',
+      lines: ['.NET | Node.js | React | AWS', 'Más de 10 años construyendo software a la medida'],
+      featured: 'Cómo construyo',
       title: 'Construyo software que funciona en producción, no solo en la demo.',
       intro:
         'Ingeniero de Sistemas con más de 10 años diseñando y desarrollando aplicaciones a la medida para empresas del sector financiero, corporativo y de gestión documental. Me encargo del proyecto completo: desde entender tu necesidad hasta dejarlo funcionando en la nube.',
@@ -130,7 +135,9 @@ export const content = {
   en: {
     nav: { about: 'About', services: 'Services', experience: 'Experience', projects: 'Projects', contact: 'Contact' },
     hero: {
-      role: 'Full Stack Developer',
+      role: 'Senior Full Stack Developer',
+      lines: ['.NET | Node.js | React | AWS', '10+ years building custom software'],
+      featured: 'How I build',
       title: 'I build software that works in production, not just in the demo.',
       intro:
         'Systems engineer with 10+ years designing and building custom applications for financial, corporate and document-management companies. I take care of the whole project: from understanding what you need to running it in the cloud.',
