@@ -53,7 +53,7 @@ export default function App() {
       <header className="topbar">
         <div className="wrap topbar-inner">
           <a className="brand" href="#top">
-            <img src={profile.photo} alt="" width="32" height="32" />
+            <img src="/favicon.svg" alt="" width="32" height="32" />
             <span>{profile.name}</span>
           </a>
           <nav aria-label="Principal">

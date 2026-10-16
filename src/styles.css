@@ -48,7 +48,7 @@ h3 { font-size: 1.3rem; font-weight: 700; }
 }
 .topbar-inner { display: flex; align-items: center; gap: 24px; height: 60px; }
 .brand { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-weight: 700; font-size: 1.05rem; color: var(--ink); text-decoration: none; }
-.brand img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; }
+.brand img { width: 32px; height: 32px; }
 .top-right { display: flex; align-items: center; gap: 14px; }
 .social { list-style: none; display: flex; gap: 4px; margin: 0; padding: 0; }
 .social a { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; color: var(--ink-soft); }
