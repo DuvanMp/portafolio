@@ -109,6 +109,7 @@ export const content = {
           problem: 'Mover miles de créditos al nuevo core sin perder un solo dato y en una ventana de tiempo corta.',
           solution: 'Servicio de migración con procesos programados y procesamiento en paralelo que redujo drásticamente los tiempos y garantizó la integridad de la información.',
           stack: ['C#', '.NET Core', 'SQL Server', 'AWS'],
+          diagram: 'migration',
         },
         {
           name: 'Procesamiento de transacciones con trazabilidad',
@@ -116,6 +117,7 @@ export const content = {
           problem: 'Procesar operaciones de forma asíncrona sin perder ninguna cuando un servicio falla.',
           solution: 'Flujo orientado a eventos con colas de error y reintentos automáticos, auditoría de cada transacción y alertas centralizadas. Despliegue 60 % más rápido y 30 % menos costo de infraestructura.',
           stack: ['.NET', 'EventBridge', 'SQS', 'DynamoDB', 'Lambda', 'EKS'],
+          diagram: 'events',
         },
         {
           name: 'Plataforma de aprendizaje de inglés',
@@ -236,6 +238,7 @@ export const content = {
           problem: 'Move thousands of loans to the new core without losing a single record, in a short time window.',
           solution: 'Migration service with scheduled jobs and parallel processing that drastically cut processing time and guaranteed data integrity.',
           stack: ['C#', '.NET Core', 'SQL Server', 'AWS'],
+          diagram: 'migration',
         },
         {
           name: 'Traceable transaction processing',
@@ -243,6 +246,7 @@ export const content = {
           problem: 'Process operations asynchronously without losing any when a service fails.',
           solution: 'Event-driven flow with dead-letter queues and automatic retries, per-transaction auditing and centralized alerts. 60% faster deployments and 30% lower infrastructure cost.',
           stack: ['.NET', 'EventBridge', 'SQS', 'DynamoDB', 'Lambda', 'EKS'],
+          diagram: 'events',
         },
         {
           name: 'English-learning platform',
