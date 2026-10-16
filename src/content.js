@@ -95,10 +95,10 @@ export const content = {
       items: [
         {
           name: 'FincaMedir Rural',
-          context: 'Proyecto propio, propuesta conceptual',
+          context: 'Proyecto propio, app Android',
           problem: 'Medir y organizar los terrenos de una finca sin equipos costosos ni conocimientos técnicos.',
-          solution: 'App móvil que calcula el área y el perímetro de cada lote caminando el lindero con el GPS del celular, organiza la finca por uso del suelo (potrero, cultivo, corral, bosque) y genera informes en PDF y KML para Google Earth. Incluye una plataforma web donde el dueño ve todas sus fincas y recibe las mediciones del campo sincronizadas.',
-          stack: ['App móvil', 'Plataforma web', 'GPS', 'Mapas', 'Informes PDF y KML'],
+          solution: 'App Android nativa en Kotlin que calcula el área y el perímetro de cada lote caminando el lindero con el GPS del celular, organiza la finca por uso del suelo (potrero, cultivo, corral, bosque) y genera informes en PDF y KML para Google Earth. Incluye una plataforma web donde el dueño ve todas sus fincas y recibe las mediciones del campo sincronizadas.',
+          stack: ['Kotlin', 'Android Studio', 'SQLite', 'GPS', 'Mapas', 'PDF y KML'],
           video: '/fincamedir.mp4',
           poster: '/fincamedir.jpg',
         },
@@ -221,10 +221,10 @@ export const content = {
       items: [
         {
           name: 'FincaMedir Rural',
-          context: 'Own project, concept proposal',
+          context: 'Own project, Android app',
           problem: 'Measure and organize farmland without expensive equipment or technical knowledge.',
-          solution: 'Mobile app that calculates the area and perimeter of each plot by walking its boundary with the phone GPS, organizes the farm by land use (pasture, crops, corrals, forest) and exports PDF and KML reports for Google Earth. Includes a web platform where owners see all their farms and receive field measurements in sync.',
-          stack: ['Mobile app', 'Web platform', 'GPS', 'Maps', 'PDF and KML reports'],
+          solution: 'Native Android app in Kotlin that calculates the area and perimeter of each plot by walking its boundary with the phone GPS, organizes the farm by land use (pasture, crops, corrals, forest) and exports PDF and KML reports for Google Earth. Includes a web platform where owners see all their farms and receive field measurements in sync.',
+          stack: ['Kotlin', 'Android Studio', 'SQLite', 'GPS', 'Maps', 'PDF and KML'],
           video: '/fincamedir.mp4',
           poster: '/fincamedir.jpg',
         },
