@@ -155,7 +155,38 @@ h3 { font-size: 1.3rem; font-weight: 700; }
   background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px;
 }
 .project > * { min-width: 0; }
-.project-media .demo, .project-media .diagram { grid-column: 1 / -1; }
+.project-media .demo, .project-media .diagram, .project-media .phone-demo { grid-column: 1 / -1; }
+
+/* Demo de app móvil */
+.phone-demo {
+  margin: 0; display: grid; grid-template-columns: auto 1fr; gap: clamp(24px, 4vw, 56px); align-items: center;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 12px; padding: clamp(20px, 3vw, 36px);
+}
+.phone { width: clamp(200px, 22vw, 260px); justify-self: center; }
+.phone video {
+  display: block; width: 100%; height: auto; aspect-ratio: 400 / 834;
+  border-radius: 13% / 6.3%; background: #111; box-shadow: 0 24px 48px -16px rgb(0 0 0 / 0.55);
+}
+.phone-steps ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.phone-steps button {
+  width: 100%; display: flex; gap: 14px; align-items: flex-start; text-align: left;
+  font: inherit; color: var(--ink-soft); background: none; border: 0; border-radius: 10px;
+  padding: 8px 12px; cursor: pointer;
+}
+.phone-steps button:hover { background: color-mix(in srgb, var(--ink) 5%, transparent); }
+.phone-steps .n {
+  flex: none; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font-size: 0.8rem; font-weight: 600; border: 1.5px solid var(--line); font-variant-numeric: tabular-nums;
+}
+.phone-steps strong { display: block; font-weight: 600; color: var(--ink); font-size: 0.98rem; }
+.phone-steps .d { display: none; font-size: 0.9rem; margin-top: 2px; }
+.phone-steps .is-active button { background: color-mix(in srgb, var(--tone-b) 12%, transparent); }
+.phone-steps .is-active .n { background: var(--tone-b); border-color: var(--tone-b); color: var(--bg); }
+.phone-steps .is-active .d { display: block; }
+.full-video { display: inline-block; margin: 16px 12px 0; font-size: 0.92rem; color: var(--cobalt); }
+@media (max-width: 720px) {
+  .phone-demo { grid-template-columns: 1fr; }
+}
 .project-media .demo {
   grid-column: 1 / -1; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px;
   background: var(--surface-2); border: 1px solid var(--line);
