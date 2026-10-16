@@ -154,6 +154,11 @@ h3 { font-size: 1.3rem; font-weight: 700; }
   display: grid; grid-template-columns: 1fr 1.6fr; gap: 40px;
   background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px;
 }
+.project-video { grid-template-columns: 1fr 1.6fr; }
+.project-video .demo {
+  grid-column: 1 / -1; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px;
+  background: var(--surface-2); border: 1px solid var(--line);
+}
 .context { color: var(--ink-soft); margin: 8px 0 0; font-size: 0.95rem; }
 .project-body p { margin: 0 0 12px; }
 .problem { font-weight: 600; }

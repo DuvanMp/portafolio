@@ -91,8 +91,17 @@ export const content = {
     },
     projects: {
       title: 'Proyectos destacados',
-      note: 'Proyectos desarrollados para empresas; por confidencialidad describo el reto y la solución sin datos internos.',
+      note: 'Los proyectos hechos para empresas los describo sin datos internos, por confidencialidad.',
       items: [
+        {
+          name: 'FincaMedir Rural',
+          context: 'Proyecto propio, propuesta conceptual',
+          problem: 'Medir y organizar los terrenos de una finca sin equipos costosos ni conocimientos técnicos.',
+          solution: 'App móvil que calcula el área y el perímetro de cada lote caminando el lindero con el GPS del celular, organiza la finca por uso del suelo (potrero, cultivo, corral, bosque) y genera informes en PDF y KML para Google Earth. Incluye una plataforma web donde el dueño ve todas sus fincas y recibe las mediciones del campo sincronizadas.',
+          stack: ['App móvil', 'Plataforma web', 'GPS', 'Mapas', 'Informes PDF y KML'],
+          video: '/fincamedir.mp4',
+          poster: '/fincamedir.jpg',
+        },
         {
           name: 'Migración de cartera a nuevo core bancario',
           context: 'Sector financiero',
@@ -208,8 +217,17 @@ export const content = {
     },
     projects: {
       title: 'Selected projects',
-      note: 'Built for companies; for confidentiality I describe the challenge and solution without internal data.',
+      note: 'Projects built for companies are described without internal data, for confidentiality.',
       items: [
+        {
+          name: 'FincaMedir Rural',
+          context: 'Own project, concept proposal',
+          problem: 'Measure and organize farmland without expensive equipment or technical knowledge.',
+          solution: 'Mobile app that calculates the area and perimeter of each plot by walking its boundary with the phone GPS, organizes the farm by land use (pasture, crops, corrals, forest) and exports PDF and KML reports for Google Earth. Includes a web platform where owners see all their farms and receive field measurements in sync.',
+          stack: ['Mobile app', 'Web platform', 'GPS', 'Maps', 'PDF and KML reports'],
+          video: '/fincamedir.mp4',
+          poster: '/fincamedir.jpg',
+        },
         {
           name: 'Loan portfolio migration to a new core banking system',
           context: 'Financial sector',

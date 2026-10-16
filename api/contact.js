@@ -33,6 +33,7 @@ export default async function handler(req, res) {
   const apiKey = process.env.RESEND_API_KEY;
   const to = process.env.CONTACT_TO_EMAIL;
   if (!apiKey || !to) {
+    console.error('Faltan variables de entorno:', { RESEND_API_KEY: !!apiKey, CONTACT_TO_EMAIL: !!to });
     return res.status(500).json({ error: 'El envío de correo no está configurado' });
   }
 
@@ -52,6 +53,7 @@ export default async function handler(req, res) {
   });
 
   if (!r.ok) {
+    console.error('Resend rechazó el envío:', r.status, await r.text());
     return res.status(502).json({ error: 'No se pudo enviar el correo' });
   }
   return res.status(200).json({ ok: true });
