@@ -19,17 +19,17 @@ export const content = {
     nav: { about: 'Sobre mí', services: 'Servicios', experience: 'Experiencia', projects: 'Proyectos', contact: 'Contacto' },
     hero: {
       role: 'Desarrollador Full Stack Senior',
-      lines: ['.NET | Node.js | React | AWS', 'Más de 10 años construyendo software a la medida'],
+      lines: ['.NET | Node.js | React | Kotlin | AWS', 'Más de 10 años construyendo software web y móvil a la medida'],
       featured: 'Cómo construyo',
       title: 'Construyo software que funciona en producción, no solo en la demo.',
       intro:
-        'Ingeniero de Sistemas con más de 10 años diseñando y desarrollando aplicaciones a la medida para empresas del sector financiero, corporativo y de gestión documental. Me encargo del proyecto completo: desde entender tu necesidad hasta dejarlo funcionando en la nube.',
+        'Ingeniero de Sistemas con más de 10 años diseñando y desarrollando aplicaciones web y móviles a la medida para empresas del sector financiero, corporativo y de gestión documental. Me encargo del proyecto completo: desde entender tu necesidad hasta dejarlo funcionando en la nube.',
       ctaPrimary: 'Cuéntame tu proyecto',
       ctaSecondary: 'Ver proyectos',
       traceCaption: 'Así viaja una petición por un sistema que construyo: cada capa medida, registrada y con reintentos si algo falla.',
     },
     trace: [
-      { label: 'Interfaz en React', ms: 38, start: 0, tone: 'a' },
+      { label: 'App web o móvil', ms: 38, start: 0, tone: 'a' },
       { label: 'API en Node.js / .NET', ms: 64, start: 22, tone: 'b' },
       { label: 'Reglas de negocio', ms: 21, start: 40, tone: 'b' },
       { label: 'Cola de mensajes (SQS)', ms: 47, start: 58, tone: 'c' },
@@ -53,6 +53,7 @@ export const content = {
       title: 'Lo que puedo hacer por ti',
       items: [
         { name: 'Aplicaciones web a la medida', desc: 'Sistemas administrativos, portales, plataformas de aprendizaje y paneles de control, de punta a punta.' },
+        { name: 'Aplicaciones móviles Android', desc: 'Apps nativas en Kotlin y Java con Android Studio: puntos de venta (POS), apps de campo con GPS y bases de datos locales con SQLite.' },
         { name: 'APIs y backend', desc: 'Servicios robustos con Node.js y .NET, integraciones con otros sistemas y procesos en segundo plano.' },
         { name: 'Frontend moderno', desc: 'Interfaces rápidas y claras con React y Angular, adaptadas a celular y escritorio.' },
         { name: 'Bases de datos', desc: 'Diseño, optimización de consultas y migración de grandes volúmenes en PostgreSQL y SQL Server.' },
@@ -145,17 +146,17 @@ export const content = {
     nav: { about: 'About', services: 'Services', experience: 'Experience', projects: 'Projects', contact: 'Contact' },
     hero: {
       role: 'Senior Full Stack Developer',
-      lines: ['.NET | Node.js | React | AWS', '10+ years building custom software'],
+      lines: ['.NET | Node.js | React | Kotlin | AWS', '10+ years building custom web and mobile software'],
       featured: 'How I build',
       title: 'I build software that works in production, not just in the demo.',
       intro:
-        'Systems engineer with 10+ years designing and building custom applications for financial, corporate and document-management companies. I take care of the whole project: from understanding what you need to running it in the cloud.',
+        'Systems engineer with 10+ years designing and building custom web and mobile applications for financial, corporate and document-management companies. I take care of the whole project: from understanding what you need to running it in the cloud.',
       ctaPrimary: 'Tell me about your project',
       ctaSecondary: 'See projects',
       traceCaption: 'How a request travels through a system I build: every layer measured, logged, and retried if something fails.',
     },
     trace: [
-      { label: 'React interface', ms: 38, start: 0, tone: 'a' },
+      { label: 'Web or mobile app', ms: 38, start: 0, tone: 'a' },
       { label: 'Node.js / .NET API', ms: 64, start: 22, tone: 'b' },
       { label: 'Business rules', ms: 21, start: 40, tone: 'b' },
       { label: 'Message queue (SQS)', ms: 47, start: 58, tone: 'c' },
@@ -179,6 +180,7 @@ export const content = {
       title: 'What I can do for you',
       items: [
         { name: 'Custom web applications', desc: 'Admin systems, portals, learning platforms and dashboards, end to end.' },
+        { name: 'Android mobile apps', desc: 'Native apps in Kotlin and Java with Android Studio: point-of-sale (POS) apps, GPS field apps and local databases with SQLite.' },
         { name: 'APIs and backend', desc: 'Robust services with Node.js and .NET, integrations with other systems and background jobs.' },
         { name: 'Modern frontend', desc: 'Fast, clear interfaces with React and Angular that work on phone and desktop.' },
         { name: 'Databases', desc: 'Design, query optimization and large-volume migrations on PostgreSQL and SQL Server.' },
