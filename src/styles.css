@@ -163,6 +163,11 @@ h3 { font-size: 1.3rem; font-weight: 700; }
   background: var(--surface-2); border: 1px solid var(--line); border-radius: 12px; padding: clamp(20px, 3vw, 36px);
 }
 .phone { width: clamp(200px, 22vw, 260px); justify-self: center; }
+.phone-demo.is-browser { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); }
+.browser video {
+  display: block; width: 100%; height: auto; aspect-ratio: 960 / 632;
+  border-radius: 10px; background: #e9edf2; box-shadow: 0 24px 48px -16px rgb(0 0 0 / 0.55);
+}
 .phone video {
   display: block; width: 100%; height: auto; aspect-ratio: 400 / 834;
   border-radius: 13% / 6.3%; background: #111; box-shadow: 0 24px 48px -16px rgb(0 0 0 / 0.55);
@@ -184,8 +189,8 @@ h3 { font-size: 1.3rem; font-weight: 700; }
 .phone-steps .is-active .n { background: var(--tone-b); border-color: var(--tone-b); color: var(--bg); }
 .phone-steps .is-active .d { display: block; }
 .full-video { display: inline-block; margin: 16px 12px 0; font-size: 0.92rem; color: var(--cobalt); }
-@media (max-width: 720px) {
-  .phone-demo { grid-template-columns: 1fr; }
+@media (max-width: 900px) {
+  .phone-demo, .phone-demo.is-browser { grid-template-columns: 1fr; }
 }
 .project-media .demo {
   grid-column: 1 / -1; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px;

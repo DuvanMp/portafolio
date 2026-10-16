@@ -149,8 +149,8 @@ export default function App() {
           <p className="muted">{t.projects.note}</p>
           <div className="projects">
             {t.projects.items.map((p) => (
-              <article key={p.name} className={`project${p.video || p.diagram || p.phoneDemo ? ' project-media' : ''}`}>
-                {p.phoneDemo && <PhoneDemo {...p.phoneDemo} lang={lang} />}
+              <article key={p.name} className={`project${p.video || p.diagram || p.demo ? ' project-media' : ''}`}>
+                {p.demo && <PhoneDemo {...p.demo} />}
                 {p.video && (
                   <video className="demo" src={p.video} poster={p.poster} controls muted playsInline preload="none" />
                 )}
